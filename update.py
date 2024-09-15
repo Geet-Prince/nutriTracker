@@ -33,7 +33,7 @@ st.markdown('<div class="custom-title">NutriTrack! 🥗📊</div>', unsafe_allow
 
 # Define the sidebar
 st.sidebar.title("Nutrition Deficiency App")
-selected = st.sidebar.selectbox("Navigate", ["Home", "Track Yourself", "Deficient", "Excess","About"])
+selected = st.sidebar.radio("Navigate", ["Home", "Track Yourself", "Deficient", "Excess","About"])
 
 deficiencies =  {
     "Iron": {
